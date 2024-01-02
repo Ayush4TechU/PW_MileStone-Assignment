@@ -1,0 +1,163 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0px 20px;
+    height: 100vh;
+    margin-bottom: 13px;
+  }
+
+  /* ----------Navbar Start Here-------- */
+
+  .menu {
+    display: flex;
+  }
+  .user {
+    display: flex;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .logo-box > img {
+    width: 40px;
+  }
+
+  .logo-box > h1 {
+    font-size: 28px;
+  }
+
+  .logo-box > h1 > span {
+    font-size: 25px;
+  }
+
+  /* ----------Main Content Start Here-------- */
+
+  main {
+    margin-top: 35px;
+  }
+
+  .main-box {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .content-section {
+    width: 100%;
+  }
+
+  .image-box {
+    width: 100%;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+  .peragraph {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .mobile-btn {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 85px;
+    left: 45px;
+  }
+
+  .mobile-btn > button {
+    font-size: 15px;
+  }
+
+  button.main-btn-1 {
+    padding: 19px 35px;
+    background-color: #ff4500;
+    color: white;
+    margin-right: 0px;
+    border: none;
+  }
+  button.main-btn-2 {
+    padding: 18px 35px;
+  }
+
+  /* Images Style  */
+
+  .image-box {
+    margin: 70px 0px;
+  }
+
+  .image-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .image-section > img {
+    height: 300px;
+  }
+
+  .main-image-bg {
+    position: absolute;
+    z-index: 1;
+    left: 35px;
+  }
+
+  .main-image {
+    position: absolute;
+    z-index: 2;
+    top: -10px;
+    left: 80px;
+  }
+
+  .main-image-pattern {
+    position: absolute;
+    z-index: 3;
+    top: -25px;
+    left: 25px;
+  }
+
+  .image-symbole {
+    position: relative;
+  }
+
+  .orange-arrow {
+    position: absolute;
+    top: -40px;
+    left: 55px;
+    width: 25px;
+  }
+
+  .circle {
+    position: absolute;
+    bottom: -300px;
+    right: 40px;
+    width: 20px;
+  }
+
+  .curve-arrow {
+    position: absolute;
+    top: 430px;
+    left: 245px;
+    width: 83px;
+  }
+
+  .green-arrow {
+    position: absolute;
+    bottom: -320px;
+    left: 45px;
+    width: 25px;
+  }
+
+  /* ----------Navbar Start Here-------- */
+
+  .footer-box{
+    flex-direction: column;
+    text-align: center;
+    gap: 80px;
+  }
+
+}

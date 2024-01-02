@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bike Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e5f745b5f5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="max-w-[1500px] w-full m-auto">
+
+        <!-- --------------- Navbar Section Start Here ---------------  -->
+
+        <header>
+            <nav class="border-b-2 flex justify-between items-center px-12 h-20">
+                <img class="w-16" src="./assets/logo.png" alt="" />
+
+                <ul class="flex">
+                    <li class="pl-12">
+                        <select name="product" id="product" class="outline-none">
+                            <option value="1">PRODUCTS</option>
+                        </select>
+                    </li>
+                    <li class="pl-12">GALLERY</li>
+                    <li class="pl-12">CONTACT</li>
+                </ul>
+
+                <div class="flex gap-10">
+                    <button>LOG IN</button>
+                    <button class="bg-black text-white px-6 py-3 rounded-lg">
+                        SIGN UP
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- --------------- Main Section Start Here ---------------  -->
+
+        <main>
+            <div class="px-12 overflow-hidden">
+
+                <!-- --------------- Main content Section Start Here ---------------  --> 
+
+                <div class="flex items-center mt-8 relative">
+                    <div>
+                        <div class="text-8xl text-[#42454a] mb-24">
+                            <h1>LET'S RIDE</h1>
+                            <h1 class="font-bold">THE FUTURE.</h1>
+                        </div>
+
+                        <div class="border-b-4 border-[#42454a] w-[55%]"></div>
+
+                        <div class="text-2xl text-[#4e5155] my-12">
+                            <p>Simple and sleek design with users</p>
+                            <p>in mind.</p>
+                        </div>
+
+                        <div class="flex items-center gap-20">
+                            <div class="flex justify-center items-center gap-6">
+                                <span class="bg-[#42454a] flex items-center py-8 px-5">
+                                    <i class="fa-solid fa-arrow-right-long fa-2xl text-white"></i>
+                                </span>
+                                <button class="text-[#1a1b1d] text-2xl font-medium">
+                                    But now
+                                </button>
+                            </div>
+
+                            <div class="flex justify-center items-center gap-6">
+                                <div class="text-[#45484d] font-semibold">
+                                    <p>Watch our</p>
+                                    <p>video how</p>
+                                    <p>it works</p>
+                                </div>
+                                <div>
+                                    <img src="./assets/header play button.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img class="w-[50rem] absolute top-0 right-[-4rem]" src="./assets/header image.png" alt="" />
+                    </div>
+                </div>
+
+                <!-- --------------- Buttons Section Start Here ---------------  -->
+                <div class="flex justify-end my-20 gap-10">
+                    <div>
+                        <img src="./assets/01.png" alt="" />
+                    </div>
+                    <div class="flex items-center">
+                        <button class="border-[1px] border-[#a0a1a3] px-5 py-2 text-lg rounded-l-full">
+                            &lt;
+                        </button>
+                        <button class="border-[1px] border-[#a0a1a3] px-5 py-2 text-lg rounded-r-full">
+                            &gt;
+                        </button>
+                    </div>
+                </div>
+
+                <!-- --------------- Box Section Start Here ---------------  -->
+
+                <div class="flex justify-between mb-20">
+                    <div class="shadow-xl rounded-md border h-28 w-40 flex flex-col justify-center items-center">
+                        <div class="flex justify-center items-end gap-2 text-[#42454a]">
+                            <h1 class="text-4xl font-bold">105</h1>
+                            <p class="font-bold">lbs</p>
+                        </div>
+
+                        <p class="text-[#616367] text-xs font-semibold mt-3">
+                            Net Weight
+                        </p>
+                    </div>
+
+                    <div class="shadow-xl rounded-md border h-28 w-40 flex flex-col justify-center items-center">
+                        <div class="flex justify-center items-end gap-2 text-[#42454a]">
+                            <h1 class="text-4xl font-bold">26</h1>
+                            <p class="font-bold">mph</p>
+                        </div>
+
+                        <p class="text-[#616367] text-xs font-semibold mt-3">
+                            Top Speed
+                        </p>
+                    </div>
+
+                    <div class="shadow-xl rounded-md border h-28 w-40 flex flex-col justify-center items-center">
+                        <div class="flex justify-center items-end gap-2 text-[#42454a]">
+                            <h1 class="text-4xl font-bold">38</h1>
+                            <p class="font-bold">miles</p>
+                        </div>
+
+                        <p class="text-[#616367] text-xs font-semibold mt-3">
+                            Max Range
+                        </p>
+                    </div>
+
+                    <div class="shadow-xl rounded-md border h-28 w-40 flex flex-col justify-center items-center">
+                        <div class="flex justify-center items-end gap-2 text-[#42454a]">
+                            <h1 class="text-4xl font-bold">89</h1>
+                            <p class="font-bold">nm</p>
+                        </div>
+
+                        <p class="text-[#616367] text-xs font-semibold mt-3">
+                            Max Torques
+                        </p>
+                    </div>
+
+                    <div class="shadow-xl rounded-md border h-28 w-40 flex flex-col justify-center items-center">
+                        <div class="flex justify-center items-end gap-2 text-[#42454a]">
+                            <h1 class="text-4xl font-bold">22%</h1>
+                            <p class="font-bold">slope</p>
+                        </div>
+
+                        <p class="text-[#616367] text-xs font-semibold mt-3">
+                            Hill Climbing
+                        </p>
+                    </div>
+
+                    <div class="shadow-xl rounded-md border h-28 w-40 flex flex-col justify-center items-center">
+                        <div class="flex justify-center items-end gap-2 text-[#42454a]">
+                            <h1 class="text-4xl font-bold">2x</h1>
+                        </div>
+
+                        <p class="text-[#616367] text-xs font-semibold mt-3">
+                            Hydralic Disc Brakes
+                        </p>
+                    </div>
+                </div>
+
+                <!-- --------------- Product Information Section Start Here ---------------  -->
+
+                <div class="mt-24">
+                    <div class="text-center">
+                        <h1 class="text-5xl text-[#42454a] font-bold">
+                            Product Information
+                        </h1>
+                        <p class="my-8 text-xl text-[#5d5f64]">
+                            Our Scooter has following unique design and technology features:
+                        </p>
+                    </div>
+
+                    <div class="flex justify-center items-center">
+                        <div class="w-[50%]">
+                            <img src="./assets/product information image.png" alt="" />
+                        </div>
+
+                        <div class="w-[50%] flex justify-end">
+                            <ul>
+                                <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                    <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                    Lightweight aircraft grade aluminium frame
+                                </li>
+
+                                <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                    <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                    Car grade lithium battery
+                                </li>
+
+                                <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                    <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                    Self-balanced
+                                </li>
+
+                                <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                    <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                    Plug n play
+                                </li>
+
+                                <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                    <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                    Quick release adapter
+                                </li>
+
+                                <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                    <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                    RFID key card
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- --------------- High Efficiency Motor Section Start Here ---------------  -->
+                <div class="my-28">
+                    <img src="./assets/high efficiency motor.png" alt="" />
+                </div>
+
+                <!-- --------------- Multiple Accessories Section Start Here ---------------  -->
+
+                <div>
+                    <div>
+                        <div class="text-center">
+                            <h1 class="text-5xl text-[#42454a] font-bold">
+                                Multiple Accessories
+                            </h1>
+                            <p class="my-8 text-xl text-[#5d5f64]">
+                                There are multiple modes for the scooter for your multiple
+                                needs.
+                            </p>
+                        </div>
+
+                        <div class="flex mt-32">
+                            <div class="w-[40%]">
+                                <h1 class="text-5xl text-[#42454a] font-bold">
+                                    Golf Bag Rock
+                                </h1>
+
+                                <ul class="mt-10">
+                                    <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                        <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                        Material &#8758; Aluminium alloy
+                                    </li>
+
+                                    <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                        <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                        Color &#8758; Black
+                                    </li>
+
+                                    <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                        <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                        Capacity &#8758; 45lbs
+                                    </li>
+
+                                    <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                        <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                        Ease &#8758; Steady & adjustable
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="w-[60%]">
+                                <img src="./assets/golf bag rock.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="my-40">
+                        <div class="flex gap-30">
+                            <div class="w-[70%] relative -left-14">
+                                <img class="" src="./assets/shopping rack.png" alt="" />
+                            </div>
+
+                            <div class="w-[30%]">
+                                <h1 class="text-5xl text-[#42454a] font-bold">
+                                    Shopping Rack
+                                </h1>
+
+                                <ul class="mt-10">
+                                    <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                        <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                        Material &#8758; Aluminium alloy
+                                    </li>
+
+                                    <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                        <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                        Color &#8758; Black
+                                    </li>
+
+                                    <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                        <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                        Capacity &#8758; 45lbs
+                                    </li>
+
+                                    <li class="flex items-center text-xl text-[#484b50] gap-5 py-3">
+                                        <span><img src="./assets/Icon.png" alt="check-icon" /></span>
+                                        Ease &#8758; Steady & adjustable
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-center items-center mt-20">
+                            <button
+                                class="border-2 border-[#a1a2a5] text-3xl text-[#42454a] font-bold px-14 py-6 rounded-lg">
+                                More Accessories Coming Soon
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- --------------- Gallery Section Start Here ---------------  -->
+
+                <div>
+                    <div class="text-center">
+                        <h1 class="text-5xl text-[#42454a] font-bold">Gallery</h1>
+                        <p class="my-8 text-xl text-[#5d5f64]">
+                            View gallery of our products and make yourself satisfied with
+                            our creation.
+                        </p>
+                    </div>
+
+                    <div class="flex gap-20 mt-80">
+                        <div class="w-[50%]">
+                            <div class="">
+                                <div class="relative z-10 top-6 left-10">
+                                    <h2 class="text-3xl text-[#42454a] font-bold">Scooter</h2>
+                                </div>
+                                <div class="relative -top-8">
+                                    <img class="" src="./assets/gallery scooter.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col my-2 w-[90%]">
+                                <button
+                                    class="my-3 border-2 border-[#a1a2a5] text-3xl text-[#42454a] font-bold py-6 rounded-lg">
+                                    Battery Image
+                                </button>
+                                <button
+                                    class="my-3 border-2 border-[#a1a2a5] text-3xl text-[#42454a] font-bold py-6 rounded-lg">
+                                    Spare Parts Images
+                                </button>
+                                <button
+                                    class="my-3 border-2 border-[#a1a2a5] text-3xl text-[#42454a] font-bold py-6 rounded-lg">
+                                    Charging Cable Images
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="w-[50%]">
+                            <div>
+                                <div class="relative z-10 -top-40 left-10">
+                                    <h2 class="text-3xl text-[#42454a] font-bold">
+                                        Built Quality
+                                    </h2>
+                                </div>
+                                <div class="relative -top-52">
+                                    <img src="./assets/gallery built quality.png" alt="" />
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="relative z-10 -top-20 left-10">
+                                    <h2 class="text-3xl text-[#42454a] font-bold">Parts</h2>
+                                </div>
+                                <div class="relative -top-36">
+                                    <img src="./assets/gallery parts.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- --------------- Colors Section Start Here ---------------  -->
+
+            <div class="mb-64">
+                <div class="text-center">
+                    <h1 class="text-5xl text-[#42454a] font-bold">Colors</h1>
+                    <p class="my-8 text-xl text-[#5d5f64]">Checkout our products colors.</p>
+                </div>
+
+                <div class="my-20">
+                    <div class="">
+                        <img class="w-full" src="./assets/gallery scooter.png" alt="" />
+                    </div>
+
+                    <div class="flex justify-center px-10 relative">
+                        <div class="flex absolute justify-center -top-32">
+                            <img class="w-[330px]" src="./assets/color-scooter-1.png" alt="" />
+                            <img class="w-[330px]" src="./assets/color-scooter-2.png" alt="" />
+                            <img class="w-[330px]" src="./assets/color-scooter-3.png" alt="" />
+                            <img class="w-[330px]" src="./assets/color-scooter-4.png" alt="" />
+                        </div>
+
+                        <div class="flex relative">
+                            <h1 class="text-7xl text-[#b7dce6] font-bold absolute top-[4rem] -left-[30rem]">
+                                01
+                            </h1>
+                            <h1 class="text-7xl text-[#b7dce6] font-bold absolute top-[4rem] -left-[9rem]">
+                                02
+                            </h1>
+                            <h1 class="text-7xl text-[#b7dce6] font-bold absolute top-[4rem] left-[12rem]">
+                                03
+                            </h1>
+                            <h1 class="text-7xl text-[#b7dce6] font-bold absolute top-[4rem] left-[33rem]">
+                                04
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- --------------- Testimonials Section Start Here ---------------  -->
+            <div class="flex flex-col justify-center items-center bg-[#fafafa] py-20 mb-32">
+                <div class="text-center">
+                    <h1 class="text-5xl text-[#42454a] font-bold">Testimonials</h1>
+                </div>
+
+                <div class="flex gap-10 py-10">
+                    <div class="shadow-2xl h-[22rem] w-[23rem] px-8 py-9 text-center bg-white">
+                        <span class="text-[#fe8b75]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+
+                        <div class="my-1">
+                            <p class="text-xl font-semibold text-[#494c51]">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+                        </div>
+
+                        <div class="flex justify-center gap-5 py-12">
+                            <img src="./assets/serhiy hipskyy.png" alt="" />
+
+                            <div>
+                                <h4 class="text-base font-bold text-[#4b4e52]">Serhiy Hipskyy</h4>
+                                <h4 class="text-sm font-semibold text-[#4b4e52] text-start">CEO Universal</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-2 border-[#ececec] h-[22rem] w-[23rem] px-8 py-9 text-center">
+                        <span class="text-[#fe8b75]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+
+                        <div class="my-4">
+                            <p class="text-xl font-semibold text-[#494c51]">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                        </div>
+
+                        <div class="flex justify-center gap-5 py-12">
+                            <img src="./assets/Justus Menke.png" alt="" />
+
+                            <div>
+                                <h4 class="text-base font-bold text-[#4b4e52]">Justus Menke</h4>
+                                <h4 class="text-sm font-semibold text-[#4b4e52] text-start">CEO Eronaman</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-2 border-[#ececec] h-[22rem] w-[23rem] px-8 py-9 text-center">
+                        <span class="text-[#fe8b75]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+
+                        <div class="my-1">
+                            <p class="text-xl font-semibold text-[#494c51]">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                        </div>
+
+                        <div class="flex justify-center gap-5 py-12">
+                            <img src="./assets/Britain Eriksen.png" alt="" />
+
+                            <div>
+                                <h4 class="text-base font-bold text-[#4b4e52]">Britain Eriksen</h4>
+                                <h4 class="text-sm font-semibold text-[#4b4e52] text-start">CEO Universal</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex gap-5">
+                    <button class="border border-[#42454a] px-3 py-2 rounded-full text-[#42454a]"><i class="fa-solid fa-arrow-left-long"></i></button>
+                    <button class="border px-3 py-2 rounded-full bg-[#42454a] text-white"><i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+
+            <!-- --------------- Subscribe Section Start Here ---------------  -->
+
+            <div class="flex flex-col justify-center items-center my-20">
+                <div class="text-center">
+                    <h1 class="text-5xl text-[#42454a] font-bold">Subscribe To Newsletter</h1>
+                    <p class="my-4 text-xl text-[#5d5f64]">Subscribe to our newsletter to get amazing offers in future.</p>
+                </div>
+
+                <div class="flex gap-4 text-xl py-10">
+                    <input class="w-96 text-[#42454a] outline-none pl-8 py-5 border rounded-lg alu" type="email" name="email" id="email" placeholder="Enter your email.">
+
+                    <button class="px-12 py-4 bg-[#42454a] text-white rounded-lg">Get start</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- --------------- Footer Section Start Here ---------------  -->
+
+        <footer class="bg-[#42454a]">
+            <div class="flex justify-center items-center pt-20 pb-9">
+                <div class="w-[40%] relative">
+                    <img class="w-full absolute left-0 -top-72" src="./assets/footer scooter.png" alt="">
+                </div>
+
+                <div class="w-[60%] flex justify-evenly">
+                    <div>
+                        <h2 class="text-white text-xl font-bold mb-12">About</h2>
+                        
+                        <ul class="text-[#f5f5f5] text-base">
+                            <li class="pb-7"><a href="#">Company</a></li>
+                            <li class="pb-7"><a href="#">Teams</a></li>
+                            <li class="pb-7"><a href="#">Profile</a></li>
+                            <li class="pb-7"><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2 class="text-white text-xl font-bold mb-12">Resources</h2>
+                        
+                        <ul class="text-[#f5f5f5] text-base">
+                            <li class="pb-7"><a href="#">Contact</a></li>
+                            <li class="pb-7"><a href="#">Application</a></li>
+                            <li class="pb-7"><a href="#">FAQ Features</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2 class="text-white text-xl font-bold mb-12">Legals</h2>
+
+                        <ul class="text-[#f5f5f5] text-base">
+                            <li class="pb-7"><a href="#">Copyright Privacy</a></li>
+                            <li class="pb-7"><a href="#">Policy Disclaimer</a></li>
+                            <li class="pb-7"><a href="#">Terms</a></li>
+                        </ul>
+
+                        <div class="flex gap-3">
+                            <span class="text-white"><i class="fa-brands fa-facebook fa-xl"></i></span>
+                            <span class="text-white"><i class="fa-brands fa-twitter fa-xl"></i></span>
+                            <span class="text-white"><i class="fa-brands fa-instagram fa-xl"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="py-4">
+                <p class="text-center text-[#f5f5f5] text-base"><span>&copy;</span> Copyright 2021. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

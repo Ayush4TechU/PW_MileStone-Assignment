@@ -1,0 +1,527 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.background{
+    background: url(../assets/background.png);
+    background-size: cover;
+}
+
+.container{
+    padding: 10px 13%;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.navcontent{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.nav-ul > li{
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.nav-ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbtn > button{
+    display: flex;
+    gap: 15px;
+    padding: 15px 30px;
+    background-color:#23a6f0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* ------------------------Main Content Start Here------------------ */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    height: 100vh;
+}
+
+.mainfirst-section{
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.mainfirst-section > h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 30px 0px;
+    line-height: 80px;
+}
+
+.mainfirst-section > p{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.main-btn{
+    margin: 20px 0px;
+    display: flex;
+    gap: 10px;
+}
+
+.main-btn > button{
+    padding: 15px 40px;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.main-btn1{
+    background-color: #23a6f0;
+    border: none;
+}
+.main-btn2{
+    background: transparent;
+    border: 1px solid white;
+}
+
+/* .mainsecond-section  */
+
+.mainsecond-section{
+    width: 50%;
+    color: black;
+    display: flex;
+    justify-content: end;
+    margin-top: 60px;
+}
+
+.main-box{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+
+.main-box > h1{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form > label{
+    margin: 11px 0px;
+}
+
+form > input,select{
+    font-size: 15px;
+    padding: 12px 8px;
+    border: 1px solid #eeebeb;
+    color: gray;
+    outline: none;
+}
+
+form > select{
+    cursor: pointer;
+}
+
+.mainbox-btn > button{
+    width: 100%;
+    padding: 15px 0px;
+    margin-top: 30px;
+    background-color: #23a6f0;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+/* ------------------Medicine First Box Start Here------------------ */
+
+.medicine-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.medicine-container-heading{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.medicine-container-heading > h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.medicine-container-heading > p{
+    color: #b9b9b9;
+    line-height: 20px;
+}
+
+.medicine-full-box{
+    display: flex;
+    gap: 30px;
+}
+
+.medicine-box{
+    width: 300px;
+}
+
+.medicine-logobox{
+    background-color: #8ec2f2;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    gap: 15px;
+}
+
+.medicine-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+}
+
+.medicine-logo > span >i{
+    color: #5cbdf4;
+}
+
+.medicine-box-heading{
+    color: white;
+}
+
+.medicine-contentbox{
+    border: 1px solid #e5f2ff;
+    border-radius: 10px;
+    height: 230px;
+    padding: 20px 40px;
+}
+
+.medicine-box-ul > li{
+    list-style: none;
+    line-height: 25px;
+    color: #a5a5a5;
+}
+
+.medicine-container-btn{
+    margin-top: 10px;
+}
+
+.medicine-container-btn > a{
+    text-decoration: none;
+    color: #83ccf6;
+    font-weight: bold;
+}
+
+/* ------------------Medicine Second Box Start Here------------------ */
+
+.medicine-second-section{
+    background-color: #fafafa;
+    height: 100vh;
+}
+
+.medicine-second-full-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.medicine-second-box{
+    width: 300px;
+    border: 1px solid #ece8e8;
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+
+/* Star fontawesome */
+
+.medicine-second-star-img > span >i{
+    color: #f3cd03;
+}
+
+
+.medicine-second-peragraph{
+    line-height: 25px;
+    color: #a1a1a1;
+    margin: 10px 0px;
+}
+
+.medicine-second-user-img > img{
+    width: 45px;
+}
+
+/* ------------------FAQ Section Start Here------------------ */
+
+.faq-section{
+    height: 100vh;
+}
+
+.faq-full-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.faq-box{
+    display: flex;
+    gap: 10px;
+    width: 290px;
+}
+
+.faq-img > span >i{
+    color: #5abcf4;
+}
+
+.faq-about{
+    line-height: 25px;
+}
+
+.faq-about > h3{
+    font-size: 18px;
+    color: #3e4044;
+    margin: 5px 0px;
+}
+.faq-about > p{
+    font-size: 17px;
+    color: #787878;
+}
+
+/* ------------------Pricing Section Start Here------------------ */
+
+.pricing-section{
+    background-color: #fafafa;
+}
+
+.pricing-full-box{
+    display: flex;
+    margin-top: 170px;
+}
+
+.pricing-box{
+    border: 2px solid #b4e0f8;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 580px;
+    width: 300px;
+    padding: 27px;
+}
+
+.pricing-big-box{
+    height: 620px;
+    margin-top: -40px;
+    background-color: #252b42;
+    color: white;
+}
+
+.pricing-big-box-pera {
+    text-align: center;
+}
+
+.pricing-box > h3{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.pricing-box > p{
+    font-size: 18px;
+    color: #787878;
+}
+
+.pricing-about{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #32acf1;
+    margin: 35px 0px;
+}
+
+.pricing-about > p{
+    font-size: 35px;
+}
+.pricing-symbole{
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-ul > li{
+    list-style: none;
+    line-height: 35px;
+    font-size: 17px;
+}
+
+.pricing-ul > li > span >i{
+    color: #2dc071;
+}
+
+.li-support{
+    margin-left: 27px;
+}
+
+.pricing-ul > li > span > .uncheck{
+    color: gray;
+}
+
+.pricing-btn{
+    width: 100%;
+}
+.pricing-btn > button{
+    width: 100%;
+    margin-top: 35px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #23a6f0;
+    cursor: pointer;
+}
+
+/* ------------------Get In Touch Section Start Here------------------ */
+
+.touch-section{
+    background-color: #252b42;
+}
+
+.touch-container{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    gap: 240px;
+}
+
+.touch-box-first > h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.touch-box-first > p{
+    line-height: 22px;
+    color: #a4a7b0;
+}
+
+.touch-box-second{
+    display: flex;
+}
+
+.touch-box-second > input{
+    width: 255px;
+    height: 55px;
+    padding: 15px 20px;
+    color: #8c8c8c;
+    outline: none;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.touch-box-second > button{
+    padding: 15px 20px;
+    background-color: #23a6f0;
+    color: white;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+/* ------------------Footer Section Start Here------------------ */
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.footer-container{
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.footer-box{
+    width: 200px;
+}
+
+.footer-box > h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-box > p{
+    color: #ababab;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 27px 0px;
+}
+
+.footer-ul > li{
+    list-style: none;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.footer-ul > li > a{
+    text-decoration: none;
+    color: #b2b2b2;
+}
+
+.footer-icon > span >i{
+    width: 40px;
+    color: #23a6f0;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+    background-color: #fafafa;
+}
